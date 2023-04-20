@@ -105,8 +105,8 @@
 }
 
 .container_info{
+    height: auto;
     margin-bottom: 50px;
-    margin-left: 30px !important;
 }
 
 .container_title--info{
@@ -118,6 +118,11 @@
     margin-top: 30px;
     font-size: 20px;
     font-family: dongle, sans-serif;
-    list-style: none;
+}
+
+@media only screen and (max-height:700px) {
+    .container_text--info{
+        font-size: 15px;
+    }
     
 }
