@@ -51,7 +51,7 @@
 
 .container_title{
     font-family: oswald, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .container_text{
@@ -78,4 +78,45 @@
 .footer_index h2{
     margin-top: 10px;
     font-size: 10px;
+}
+
+/* FIN DE EL INDEX.HTML */
+/* INCIO DE EL CONTACTO.HTML */
+
+.section_cont{
+    display: flex;
+    flex-direction: column;
+    height: auto ;
+    width: 100%;
+    background-image: url(./img/eggs-1467286_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container_title--cont{
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+}
+
+.container_text--cont{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: dongle, sans-serif;
+}
+
+.container_info{
+    margin-bottom: 50px;
+    margin-left: 30px !important;
+}
+
+.container_title--info{
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+}
+
+.container_text--info{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: dongle, sans-serif;
+    list-style: none;
 }
