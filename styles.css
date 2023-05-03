@@ -37,7 +37,7 @@ html {
     box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
 }
 
-.navbar-toggler {
+.navbar .navbar-toggler {
     text-shadow: 2px 2px 5px black;
 }
 
@@ -52,12 +52,12 @@ html {
     padding: 20px;
 }
 
-.container_title {
+.container .container_title {
     font-family: oswald, sans-serif;
     font-size: 20px;
 }
 
-.container_text {
+.container .container_text {
     margin-top: 30px;
     font-size: 20px;
     font-family: dongle, sans-serif;
@@ -77,7 +77,7 @@ html {
     margin-top: auto;
 }
 
-.footer_index h2 {
+.footer_index .footer_index h2 {
     margin-top: 10px;
     font-size: 10px;
 }
@@ -94,12 +94,12 @@ html {
     background-position: center;
 }
 
-.container_title--cont {
+.section_cont .container_title--cont {
     font-family: oswald, sans-serif;
     font-size: 20px;
 }
 
-.container_text--cont {
+.section_cont .container_text--cont {
     margin-top: 30px;
     font-size: 20px;
     font-family: dongle, sans-serif;
@@ -110,12 +110,12 @@ html {
     margin-bottom: 50px;
 }
 
-.container_title--info {
+.container_info .container_title--info {
     font-family: oswald, sans-serif;
     font-size: 20px;
 }
 
-.container_text--info {
+.container_info .container_text--info {
     margin-top: 30px;
     font-size: 20px;
     font-family: dongle, sans-serif;
@@ -133,12 +133,12 @@ html {
     background-position: center;
 }
 
-.container_title--ubi {
+.section_ubi .container_title--ubi {
     font-family: oswald, sans-serif;
     font-size: 20px;
 }
 
-.container_text--ubi {
+.section_ubi .container_text--ubi {
     margin-top: 30px;
     font-size: 20px;
     font-family: dongle, sans-serif;
@@ -158,12 +158,12 @@ html {
     padding: 20px;
 }
 
-.container_title--dir {
+.container_dir .container_title--dir {
     font-family: oswald, sans-serif;
     font-size: 20px;
 }
 
-.container_text--dir {
+.container_dir .container_text--dir {
     margin-top: 30px;
     font-size: 20px;
     font-family: dongle, sans-serif;
