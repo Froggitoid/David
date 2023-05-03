@@ -1,193 +1,175 @@
 @font-face {
-    font-family: oswald;
-    src: url(./Fonts/Oswald/Oswald-VariableFont_wght.ttf);
+  font-family: oswald;
+  src: url(./Fonts/Oswald/Oswald-VariableFont_wght.ttf);
 }
-
 @font-face {
-    font-family: bebas;
-    src: url(./Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+  font-family: bebas;
+  src: url(./Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
-
 @font-face {
-    font-family: dongle;
-    src: url(./Fonts/Dongle/Dongle-Regular.ttf);
+  font-family: dongle;
+  src: url(./Fonts/Dongle/Dongle-Regular.ttf);
 }
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .section_index {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    background-image: url(./img/eggs-1467286_1920.jpg);
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/eggs-1467286_1920.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar {
-    font-family: oswald, sans-serif;
-    height: auto;
-    min-height: 50px;
-    background-color: rgba(99, 0, 0, 0.521);
-    font-weight: bold;
-    text-shadow: 2px 2px 5px black;
-    box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
+  font-family: oswald, sans-serif;
+  height: auto;
+  min-height: 50px;
+  background-color: rgba(99, 0, 0, 0.521);
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
 }
-
 .navbar .navbar-toggler {
-    text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px black;
 }
 
 .container {
-    background-color: rgba(99, 0, 0, 0.521);
-    margin-top: 100px;
-    max-height: 250px;
-    height: auto;
-    color: aliceblue;
-    box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
-    text-shadow: 2px 2px 5px black;
-    padding: 20px;
+  background-color: rgba(99, 0, 0, 0.521);
+  margin-top: 100px;
+  max-height: 250px;
+  height: auto;
+  color: aliceblue;
+  box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
+  text-shadow: 2px 2px 5px black;
+  padding: 20px;
 }
-
 .container .container_title {
-    font-family: oswald, sans-serif;
-    font-size: 20px;
+  font-family: oswald, sans-serif;
+  font-size: 20px;
 }
-
 .container .container_text {
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: dongle, sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: dongle, sans-serif;
 }
 
 .footer_index {
-    min-height: 50px;
-    height: auto;
-    background-color: rgba(99, 0, 0, 0.521);
-    padding: 10px 10px;
-    color: aliceblue;
-    text-shadow: 2px 2px 5px black;
-    box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
-    margin-top: 10px;
-    font-family: oswald, sans-serif;
-    bottom: 0;
-    margin-top: auto;
+  min-height: 50px;
+  height: auto;
+  background-color: rgba(99, 0, 0, 0.521);
+  padding: 10px 10px;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
+  margin-top: 10px;
+  font-family: oswald, sans-serif;
+  bottom: 0;
+  margin-top: auto;
 }
-
-.footer_index .footer_index h2 {
-    margin-top: 10px;
-    font-size: 10px;
+.footer_index h2 {
+  margin-top: 10px;
+  font-size: 10px;
 }
 
 /* FIN DE EL INDEX.HTML */
 /* INCIO DE EL CONTACTO.HTML */
 .section_cont {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    background-image: url(./img/eggs-1467286_1920.jpg);
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  background-image: url(./img/eggs-1467286_1920.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
 .section_cont .container_title--cont {
-    font-family: oswald, sans-serif;
-    font-size: 20px;
+  font-family: oswald, sans-serif;
+  font-size: 20px;
 }
-
 .section_cont .container_text--cont {
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: dongle, sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: dongle, sans-serif;
 }
 
 .container_info {
-    height: auto;
-    margin-bottom: 50px;
+  height: auto;
+  margin-bottom: 50px;
 }
-
 .container_info .container_title--info {
-    font-family: oswald, sans-serif;
-    font-size: 20px;
+  font-family: oswald, sans-serif;
+  font-size: 20px;
 }
-
 .container_info .container_text--info {
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: dongle, sans-serif;
-    list-style: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: dongle, sans-serif;
+  list-style: none;
 }
 
 /* INICIO DE EL UBICACION.HTML */
 .section_ubi {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    background-image: url(./img/eggs-1467286_1920.jpg);
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/eggs-1467286_1920.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
 .section_ubi .container_title--ubi {
-    font-family: oswald, sans-serif;
-    font-size: 20px;
+  font-family: oswald, sans-serif;
+  font-size: 20px;
 }
-
 .section_ubi .container_text--ubi {
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: dongle, sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: dongle, sans-serif;
 }
 
 .container_dir {
-    height: auto;
-    margin-bottom: 50px;
-    background-color: rgba(99, 0, 0, 0.521);
-    margin-top: 100px;
-    margin-left: 89px;
-    max-height: 250px;
-    height: auto;
-    color: aliceblue;
-    box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
-    text-shadow: 2px 2px 5px black;
-    padding: 20px;
+  height: auto;
+  margin-bottom: 50px;
+  background-color: rgba(99, 0, 0, 0.521);
+  margin-top: 100px;
+  margin-left: 89px;
+  max-height: 250px;
+  height: auto;
+  color: aliceblue;
+  box-shadow: -4px 4px 5px rgba(11, 11, 11, 0.521);
+  text-shadow: 2px 2px 5px black;
+  padding: 20px;
 }
-
 .container_dir .container_title--dir {
-    font-family: oswald, sans-serif;
-    font-size: 20px;
+  font-family: oswald, sans-serif;
+  font-size: 20px;
 }
-
 .container_dir .container_text--dir {
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: dongle, sans-serif;
-    list-style: none;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: dongle, sans-serif;
+  list-style: none;
 }
 
 .map {
-    margin-left: 89px;
-    margin-bottom: 20px;
+  margin-left: 89px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 744px) {
-    .map {
-        width: 300px;
-        height: 300px;
-    }
+  .map {
+    width: 300px;
+    height: 300px;
+  }
 }
-
 @media only screen and (max-width: 408px) {
-    .map {
-        margin-left: 10px;
-        width: 300px;
-        height: 300px;
-    }
-}
-
-/*# sourceMappingURL=styles.css.map */
+  .map {
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+  }
+}/*# sourceMappingURL=styles.css.map */
